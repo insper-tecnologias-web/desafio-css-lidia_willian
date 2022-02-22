@@ -44,9 +44,90 @@ body {
 
 }
 
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+  padding: 2rem;
+}
+
+.card {
+  height: 5.5rem;
+  width: 10rem;
+  padding: 1.2rem;
+  margin: .75rem;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.card-color-1 {
+  background-color: #ead3a7;
+}
+.card-color-2 {
+  background-color:  #9de0f5;
+}
+.card-color-3 {
+  background-color:  #ef89ba;
+}
+.card-color-4 {
+  background-color:#fae890;
+}
+.card-color-5 {
+  background-color: #abe9c1;
+}
+.card-rotation-1 {
+  transform: rotate(-2.75deg);
+}
+.card-rotation-2 {
+  transform: rotate(2.75deg);
+}
+.card-rotation-3 {
+  transform: rotate(-2.5deg);
+}
+.card-rotation-4 {
+  transform: rotate(-2deg);
+}
+.card-rotation-5 {
+  transform: rotate(2.5deg);
+}
+.card-rotation-6 {
+  transform: rotate(2deg);
+}
+.card-rotation-7 {
+  transform: rotate(1.5deg);
+}
+.card-rotation-8 {
+  transform: rotate(-1.5deg);
+}
+.card-rotation-9 {
+  transform: rotate(-1deg);
+}
+.card-rotation-10 {
+  transform: rotate(1deg);
+}
+.card-rotation-11 {
+  transform: rotate(-1.75deg);
+}
+.card-title {
+  font-family: 'Permanent Marker', cursive;
+}
+.card-content{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+}
+p {
+  font-family: 'Permanent Marker', cursive;
+  color: #4c4c4c;
+  font-size: small;
+}
+.card-content {
+  margin-top:1rem;
+}
+
 /* Você pode usar o CSS comentado abaixo, se ajudar */
 /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
-/* .btn {
+.btn {
   position: relative;
   display: block;
   padding: 10px 15px;
@@ -94,4 +175,4 @@ body {
   padding-top: 120%;
 
   transition: width 0.2s ease-out, padding-top 0.2s ease-out;
-} */
+}
